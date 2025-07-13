@@ -1,0 +1,17 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f7f2;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content section {
+  margin-bottom: 30px;
+}
+
