@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Product from "./pages/Product/Product";
-import Count from "./pages/Count/Count";
+
 
 function App() {
   const bg = {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
 
-        <Route path ='/count' element={<Count />} />
+      
       </Routes>
     </BrowserRouter>
   );
