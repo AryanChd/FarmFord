@@ -5,6 +5,8 @@ import duckImg from "../../assets/productsimg/duck.png";
 import turkeyImg from "../../assets/productsimg/turkey.png";
 import goatImg from "../../assets/productsimg/goat.png";
 import henImg from "../../assets/productsimg/hen.png";
+import heroImg1 from "../../assets/heroimage1.jpg";
+import heroImg2 from "../../assets/heroimage2.jpg";
 
 
 const Home = () => {
@@ -30,7 +32,6 @@ const Home = () => {
       {/* Hero Section */}
 <section className="bg-gradient-to-br from-green-600 via-green-400 to-lime-200 text-white py-20 shadow-xl rounded-b-3xl animate-fade-in delay-200">
   <div className="max-w-7xl mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center min-h-[80vh] gap-12">
-    
     {/* Left Column */}
     <div className="flex-1 flex flex-col justify-center items-start space-y-8 max-w-xl mx-auto lg:mx-0 animate-fade-in">
       <h1 className="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
@@ -55,12 +56,10 @@ const Home = () => {
       </div>
     </div>
 
-    {/* Right Column */}
-    <div className="flex-1 flex justify-center items-center animate-slide-up">
-      <div className="bg-white/20 backdrop-blur-lg border-4 border-dashed border-white/40 rounded-3xl p-12 text-center shadow-2xl">
-        <span className="text-7xl mb-4 block">🌾</span>
-        <span className="text-2xl font-bold text-green-900">Fresh Farm Produce</span>
-      </div>
+    {/* Images Column */}
+    <div className="flex-1 flex flex-col sm:flex-row justify-center items-center gap-8 animate-slide-up">
+      <img src={heroImg1} alt="Farm owner with rooster" className="w-64 h-72 object-cover rounded-3xl shadow-2xl border-4 border-white/60" />
+      <img src={heroImg2} alt="Farm owner with fish" className="w-64 h-72 object-cover rounded-3xl shadow-2xl border-4 border-white/60" />
     </div>
   </div>
 </section>
